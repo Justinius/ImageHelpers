@@ -2,3 +2,8 @@ https://softwarebydefault.com/2013/06/22/compass-edge-detection/
 https://www.markschulze.net/snakes/
 https://en.wikipedia.org/wiki/Active_contour_model
 https://web.archive.org/web/20101008005512/http://www.isbe.man.ac.uk/~bim/software/qsnake_demo/qsnake_demo.html
+http://www.engr.uconn.edu/~cmli/DRLSE/
+http://www.imagecomputing.org/~cmli/code/
+http://www.shawnlankton.com/page/2/?s=segmentation
+https://github.com/pmneila/morphsnakes/blob/master/morphsnakes.py
+http://gc-films.com/chromakey.html
