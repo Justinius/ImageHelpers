@@ -1,0 +1,4 @@
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\Filters\bin\Debug\Filters.dll
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\Filters\bin\Debug\Filters.pdb
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\Filters\obj\Debug\Filters.dll
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\Filters\obj\Debug\Filters.pdb
