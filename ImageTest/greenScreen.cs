@@ -56,8 +56,8 @@ namespace ImageTest
             cb_key = rgb2cb(r_key, g_key, b_key);
             cr_key = rgb2cr(r_key, g_key, b_key);
 
-            tola = 10;
-            tolb = 70;
+            tola = 40;
+            tolb = 100;
 
             for (int x = 0; x < backGround.Size.Width; x++)
             {

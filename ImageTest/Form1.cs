@@ -61,6 +61,8 @@ namespace ImageTest
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+
 
             Image overlay = Image.FromFile(@"C:\users\feltytj\desktop\TransparentTest.png");
             Image source = Image.FromFile(@"C:\users\feltytj\desktop\cameraGreen.jpg");
@@ -163,7 +165,68 @@ namespace ImageTest
            outB = greenScreen.computeGreenScreen(fg, bg, selectedColor);
            picBox1.Image = outB;
            picBox1.Refresh();
-        } 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            TCamDevice[] allDevice = DeviceManager.GetAllDevices();
+            
+
+            allDevice[0].ShowWindow(picBox1);
+
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            TCamDevice[] allDevice = DeviceManager.GetAllDevices();
+            allDevice[0].Stop();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+            TCamDevice[] allDevice = DeviceManager.GetAllDevices();
+            Bitmap capture = allDevice[0].GetFrame();
+            allDevice[0].Stop();
+
+            Image ChromaBack = Image.FromFile(@"C:\users\feltytj\desktop\Sat_resize.jpg");
+            Bitmap bg = new Bitmap(ChromaBack);
+
+            picBox2.Image = capture;
+
+            //Image source = Image.FromFile(@"C:\users\feltytj\desktop\cameraGreen.jpg");
+            //Bitmap fg = new Bitmap(source);
+
+            Bitmap outB = new Bitmap(bg);
+
+            outB = greenScreen.computeGreenScreen(capture, bg, selectedColor);
+            picBox1.Image = outB;
+            picBox1.Refresh();
+        }
+
+        private void picBox2_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Bitmap lcl = new Bitmap(picBox2.Image);
+
+
+            selectedColor = lcl.GetPixel(e.X, e.Y);
+            chromaSet = true;
+            Bitmap clrB = new Bitmap(50, 50);
+            for (int x = 0; x < 50; x++)
+            {
+                for (int y = 0; y < 50; y++)
+                {
+                    clrB.SetPixel(x, y, selectedColor);
+                }
+            }
+
+            clrBox.Image = clrB;
+        }
+
+        
+
+
         
     }
 }
