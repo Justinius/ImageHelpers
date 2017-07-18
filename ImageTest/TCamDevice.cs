@@ -106,7 +106,7 @@ namespace ImageTest
 
         public Bitmap GetFrame()
         {
-            SendMessage(deviceHandle, WM_CAP_GET_FRAME, -1, 0);
+            SendMessage(deviceHandle, WM_CAP_GET_FRAME, 0, 0);
             SendMessage(deviceHandle, WM_CAP_COPY, 0, 0);
             Bitmap bitmap = (Bitmap)Clipboard.GetDataObject().GetData(DataFormats.Bitmap);  // copy into bitmap
             return bitmap;
