@@ -8,3 +8,7 @@ C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\ImageTest\obj\x
 C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\ImageTest\bin\Debug\Filters.dll
 C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\ImageTest\bin\Debug\Filters.pdb
 C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\ImageTest\obj\x86\Debug\ImageTest.csprojResolveAssemblyReference.cache
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\ImageTest\bin\Debug\Touchless.Vision.dll
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\ImageTest\bin\Debug\WebCamLib.dll
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\ImageTest\bin\Debug\Touchless.Vision.pdb
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\ImageTest\bin\Debug\WebCamLib.pdb

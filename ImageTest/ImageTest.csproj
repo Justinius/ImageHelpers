@@ -44,6 +44,12 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Touchless.Vision">
+      <HintPath>.\Touchless.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="WebCamLib">
+      <HintPath>.\WebCamLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeviceManager.cs" />

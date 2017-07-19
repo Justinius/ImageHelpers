@@ -41,12 +41,12 @@ namespace ImageTest
             return (1.0);
         }
 
-        public static Bitmap computeGreenScreen(Bitmap foreGround, Bitmap backGround, Color chromakey)
+        public static Bitmap computeGreenScreen(Bitmap foreGround, Bitmap backGround, Color chromakey, int tola = 40, int tolb = 100)
         {
             Bitmap outB = new Bitmap(backGround);
 
             int b, g, r, cb, cr; //y
-            int b_key, g_key, r_key, cb_key, cr_key, tola, tolb;
+            int b_key, g_key, r_key, cb_key, cr_key; //, tola, tolb;
             double mask;
 
 
@@ -56,8 +56,8 @@ namespace ImageTest
             cb_key = rgb2cb(r_key, g_key, b_key);
             cr_key = rgb2cr(r_key, g_key, b_key);
 
-            tola = 40;
-            tolb = 100;
+            //tola = 40;
+            //tolb = 100;
 
             for (int x = 0; x < backGround.Size.Width; x++)
             {
@@ -77,7 +77,29 @@ namespace ImageTest
             }
 
             return outB;
-
         }
+    
+        public static Bitmap overlayBitmaps(Bitmap topBitmap, Bitmap bottomBitmap)
+        {
+            Bitmap combined = new Bitmap(bottomBitmap.Size.Width, bottomBitmap.Size.Height);
+            for (int x = 0; x < combined.Size.Width; x++)
+            {
+                for (int y = 0; y < combined.Size.Height; y++)
+                {
+                    if (topBitmap.GetPixel(x, y).A == 255)
+                    {
+                        combined.SetPixel(x, y, topBitmap.GetPixel(x, y));
+                    }
+                    else
+                    {
+                        combined.SetPixel(x, y, bottomBitmap.GetPixel(x, y));
+                    }
+
+                }
+            }
+            return combined;
+        }
+
+            
     }
 }
