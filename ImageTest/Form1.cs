@@ -171,8 +171,8 @@ namespace ImageTest
             {
                 Camera c = (Camera)comboBoxCameras.SelectedItem;
                 setFrameSource(new CameraFrameSource(c));
-                _frameSource.Camera.CaptureWidth = 320;
-                _frameSource.Camera.CaptureHeight = 240;
+                _frameSource.Camera.CaptureWidth = 1600;
+                _frameSource.Camera.CaptureHeight = 1200;
                 _frameSource.Camera.Fps = 20;
                 _frameSource.NewFrame += OnImageCaptured;
 
