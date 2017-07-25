@@ -1,0 +1,11 @@
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\bin\Debug\CameraLib_Test.exe
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\bin\Debug\CameraLib_Test.pdb
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\bin\Debug\Camera_NET.dll
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\bin\Debug\DirectShowLib-2010.dll
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\bin\Debug\Camera_NET.pdb
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\bin\Debug\DirectShowLib-2010.pdb
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\obj\x86\Debug\CameraLib_Test.FormCameraControlTool.resources
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\obj\x86\Debug\CameraLib_Test.Properties.Resources.resources
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\obj\x86\Debug\CameraLib_Test.csproj.GenerateResource.Cache
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\obj\x86\Debug\CameraLib_Test.exe
+C:\Users\feltytj\Documents\Visual Studio 2010\Projects\ImageTest\CameraLib_Test\obj\x86\Debug\CameraLib_Test.pdb
